@@ -1,13 +1,26 @@
 .demo-layout-transparent {
   background: url('../Pics/IMG_0325.JPG') center / cover;/* Navigation menu picture */
 }
+
 body{
     background-color:#e0e0eb;/* Slightly grey so that it shows contrast with cards */
 }
+
 .mdl-layout__content{
     height:400px; /* This si where the height of the navigation menu is added*/
 }
 
+footer{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    color:black;
+    font-family:arial;
+    border:0px;
+    margin:0px;
+    width:96%;
+}
 
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
